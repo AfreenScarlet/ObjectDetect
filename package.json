@@ -9,8 +9,7 @@
     "start": "babel-node dist",
     "prestart": "npm run -s build",
     "test": "eslint src",
-    "babel-version": "babel --version",    
-  "heroku-postbuild": "cd object-detect && npm install --only=dev && npm install && npm run build"
+    "babel-version": "babel --version"
   },
   "eslintConfig": {
     "extends": "eslint:recommended",
